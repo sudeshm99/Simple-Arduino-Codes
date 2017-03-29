@@ -11,8 +11,8 @@ int fadeAmount3 = 5;
 void setup() {
   // put your setup code here, to run once:
   pinMode(led1, OUTPUT);
-  pinMode(led2, OUTPUT);
-  pinMode(led3, OUTPUT);
+//  pinMode(led2, OUTPUT);
+//  pinMode(led3, OUTPUT);
 }
 
 void loop() {
@@ -24,21 +24,21 @@ void loop() {
         
       }
       delay(300);
-
-      analogWrite(led2,brightness2);
-    brightness2 += fadeAmount2;
-    if(brightness2 <= 0 || brightness2 >= 255){
-        fadeAmount2 = -fadeAmount2;
-        
-      }
-      delay(300);
-//     if(brightness1 >=255){
-//          analogWrite(led2, brightness2);
-//          brightness2 += fadeAmount2;
-//          if(brightness2 <=0 || brightness2 >= 255){
-//              fadeAmount2 = -fadeAmount2;
-//            }
-//        }
-//     delay(30);   
+//
+//      analogWrite(led2,brightness2);
+//    brightness2 += fadeAmount2;
+//    if(brightness2 <= 0 || brightness2 >= 255){
+//        fadeAmount2 = -fadeAmount2;
+//        
+//      }
+//      delay(300);
+////     if(brightness1 >=255){
+////          analogWrite(led2, brightness2);
+////          brightness2 += fadeAmount2;
+////          if(brightness2 <=0 || brightness2 >= 255){
+////              fadeAmount2 = -fadeAmount2;
+////            }
+////        }
+////     delay(30);   
       
 }
